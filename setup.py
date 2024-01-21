@@ -44,8 +44,8 @@ setup(
 	## these are only necessary for the command line tool
 	## lib can work without additional deps
 	install_requires=[
-		'adiskreader>=0.0.3',
-		'pypykatz>=0.0.7',
+		'adiskreader>=0.0.1',
+		'pypykatz>=0.6.9',
         'aesedb>=0.1.6',
 		'tqdm',
 		'colorama',
