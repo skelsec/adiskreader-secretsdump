@@ -20,7 +20,7 @@ pip install pypykatz
 pip install aiosmb
 pip install cryptography
 cd %repo%\examples\
-pyinstaller -F console.py -n adiskreader %hiddenimports%
+pyinstaller -F console.py -n adiskreader_secrets %hiddenimports%
 cd %repo%\examples\dist & copy *.exe %root%
 GOTO :CLEANUP
 
